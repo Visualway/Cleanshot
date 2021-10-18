@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleanshot | Developed By Visualway</title>
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/screenshot.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tick.css">
+    
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="manifest" href="mainfest.json">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="ScreenshotDeck">
+    <meta name="apple-mobile-web-app-title" content="ScreenshotDeck">
+    <meta name="theme-color" content="#3a5ef6">
+    <meta name="msapplication-navbutton-color" content="#3a5ef6">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/index.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/png" href="img/github.png">
+    <link rel="apple-touch-icon" type="image/png" href="img/github.png">
+</head>
+<body>
+    <div class="loader-wrapper">
+        <div class="loadingio-spinner-pulse-ablisa6e6yj"><div class="ldio-kwt6teggxwb">
+            <div></div><div></div><div></div>
+            </div></div>
+    </div>
+    <section id="main">
+        <div class="head">
+            <div class="text-cont">
+                <h3>CleanShot-</h3>
+                <h3>Generate screenshots for any website from its URLs.</h3>
+                <div class="btn-cont">
+                    <div class="share" id="OpenGithub"><i class='bx bxl-github'></i> Star this Project</div>
+                    <div class="share wh" id="OpenInsta"><i class='bx bxl-twitter' ></i> Follow us on Twitter</div>
+                </div>
+            </div>
+        </div>
+        <div class="search">
+            <div class="cont">
+                <div class="search-cont">
+                    <input type="text" id="websiteAddress" placeholder="https://example.com/">
+                    <button class="btn" id="subUrl">
+                        <i class='bx bx-search'></i>
+                        <span class="text" id="txt">
+                          Take Screenshot
+                        </span>
+                        <span class="loading-animate"></span>
+                    </button>
+                    <div class="share wh colors" id="backgroundPalette"><i class='bx bx-palette'></i> Choose your background color</div>
+                    <div class="palette" id="colorPalette">
+                        <div class="box" id="white"></div>
+                        <div class="box" id="blue"></div>
+                        <div class="box" id="yellow"></div>
+                        <div class="box" id="green"></div>
+                        <div class="box" id="violet"></div>
+                        <div class="box" id="pink"></div>
+                        <div class="box" id="red"></div>
+                        <div class="box" id="trans"></div>
+                        <input type="text" id="hexcode" value="000">
+                        <div class="box" id="submitbtn">
+                            <i class='bx bxs-color-fill'></i>
+                        </div>
+                    </div>
+                    <div class="p-cont">
+                        <p>Developed By <a href="https://www.twitter.com/visualwayorg">Visualway</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="loader">
+        <div class="text-loader">
+            <div class="loadingio-spinner-pulse-ablisa6e6yj"><div class="ldio-kwt6teggxwb">
+                <div></div><div></div><div></div>
+                </div></div>
+
+            <h3 id="quote">Working On It</h3>
+        </div>
+    </section>
+    
+    <section id="resutBody">
+        <video autoplay muted loop id="myVideo" play>
+            <source src="video/partypopper.mp4" type="video/mp4">
+        </video>
+        <div class="main" >
+            <div class="result">
+                <h3>Congo, we got it !</h3>
+                <div class="btn-container">
+                    <div class="button" ><i class='bx bx-download'></i>Download Screenshot</div>
+                    <div class="share wh star" id="starGithub"><i class='bx bxl-github'></i> Star this Project</div>
+                </div>
+                <img src="" alt="" id="resultImage">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/trigger.js"></script>
+    <script src="js/btn.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/download.js"></script>
+    <script src="js/loader.js"></script>
+</body>
+</html>

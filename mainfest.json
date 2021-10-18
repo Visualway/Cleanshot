@@ -1,0 +1,17 @@
+{
+    "name": "CleanShot",
+    "Developer": "Visualway",
+    "short_name": "Cleanshot",
+    "description": "Generate clean screenshots of any website from its URL",
+    "lang": "Javascript",
+    "start_url": "/index.html",
+    "display": "minimal-ui",
+    "theme_color": "#3a5ef6",
+    "icons": [
+      {
+        "src": "https://sprintnote.vercel.app/img/github.png",
+        "sizes": "64*64",
+        "type": "image/png"
+      }
+    ]
+}

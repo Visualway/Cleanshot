@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Questrial&display=swap');*{margin:0;padding:0}
+body{height:100%;width:100%;background:linear-gradient(125deg,#ecfcff 0,#ecfcff 40%,#b2fcff calc(40%+1px),#b2fcff 60%,#5edfff calc(60%+1px),#5edfff 72%,#3e64ff calc(72%+1px),#3e64ff 100%);font-family:'Poppins',sans-serif}
+#resutBody{height:100vh;width:100%;overflow:hidden;display:flex;display:none}
+.main{height:100%;width:100%;display:flex;justify-content:center;align-items:center}
+.result{text-align:center;color:#0d004d}
+.main h3{font-size:2.75em;font-weight:700;line-height:1.25em;text-shadow:0 2px 4px rgba(13,0,77,.08),0 3px 6px rgba(13,0,77,.08),0 8px 16px rgba(13,0,77,.08)}
+.main img{width:52.5%;filter:drop-shadow(0 16px 80px rgba(17,0,102,.2));border-radius:15px}
+.btn-container{display:flex;justify-content:center;align-items:center;width:100%;padding:10px 0}
+.button{background:#0d004d;color:#fff;height:45px;width:250px;box-shadow:0 2px 4px rgba(13,0,77,.08),0 8px 16px rgba(13,0,77,.08),0 32px 80px rgba(13,0,77,.08);border-radius:5px;cursor:pointer;display:flex;justify-content:center;align-items:center;margin:0 5px;border:1px solid #0d004d;transition:.5s}
+.button i{padding:0 10px 0 0;font-size:1.5em;transition:.5s}
+.button:hover{box-shadow:0 12px 14px rgba(13,0,77,.1),0 18px 26px rgba(13,0,77,.1),0 82px 100px rgba(13,0,77,.1)}
