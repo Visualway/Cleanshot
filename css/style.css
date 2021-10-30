@@ -96,3 +96,9 @@ body{height:100%;width:100%;font-family:'Poppins',sans-serif}
 #resutBody{background-position:center}
 .result{padding-top:50%}
 }
+.ph
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
