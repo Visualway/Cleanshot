@@ -16,9 +16,7 @@ Generate clean screenshots for any website from its URL
   
 ## Screenshot
 
-![ss1](https://i.ibb.co/0hN6gb1/Cleanshot-Deve.png)
-![ss2](https://i.ibb.co/gFDwNX1/Cleanshot-Deve-1.png)
-
+![ss1](https://us-east-1.tixte.net/uploads/me.likes.cash/siteshot-mockup.png)
   
 ## Built with 
 
