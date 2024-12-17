@@ -1,5 +1,5 @@
 
-# Cleanshot
+# Slteshot
 
 Generate clean screenshots for any website from its URL
 
